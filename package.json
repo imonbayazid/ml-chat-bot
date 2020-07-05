@@ -34,7 +34,7 @@
 	"@angular/compiler-cli": "~9.0.2",
     "@angular/language-service": "~9.0.2",
 	"typescript": "~3.7.5",
-	"express": "^4.17.1",
+	"express": "^4.17.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.3",
