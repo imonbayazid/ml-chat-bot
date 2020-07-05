@@ -1,13 +1,18 @@
 {
   "name": "chatbot",
   "version": "0.0.0",
+  "engines": {
+    "node": "v10.15.3",
+    "npm": "6.4.1"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+	"postinstall": "ng build --output-path chatbot_app  --aot --prod"
   },
   "private": true,
   "dependencies": {
@@ -25,7 +30,11 @@
     "eva-icons": "^1.1.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2"
+    "zone.js": "~0.10.2",
+	"@angular/compiler-cli": "~9.0.2",
+    "@angular/language-service": "~9.0.2",
+	"typescript": "~3.7.5",
+	"express": "^4.17.1",
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.3",
