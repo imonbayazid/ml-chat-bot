@@ -121,9 +121,13 @@ app.post('/dialogflowWebhook',async (request, response) => {
            console.log(`response `,response.data);
           if(response.data==1) 
           {
-            agent.add(`According to the ML model, it seems you would survive if you were at titanic on that time.`);
+            agent.add(`According to the ML model, it seems you would survive if you were at titanic at  that time.`);
           }
-          else agent.add(`According to the ML model, it seems you wouldn't survive if you were at titanic on that time.`);
+          else if(response.data==0) 
+          {
+            agent.add(`According to the ML model, it seems you wouldn't survive if you were at titanic at  that time.`);
+          }
+		  else agent.add(`Something went wrong, please try again.`);
 
         })
         .catch(function (error) {
