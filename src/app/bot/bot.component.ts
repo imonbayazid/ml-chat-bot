@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-const dialogflowURL = 'http://localhost:3000/getBotResponse';
+const dialogflowURL = 'https://titanic-chat-bot-backend.herokuapp.com/getBotResponse';
 
 @Component({
   selector: 'app-bot',
