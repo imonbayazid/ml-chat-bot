@@ -12,8 +12,7 @@
 */node_modules
 *node_modules
 /ChatbotFrontend/chatbot/node_modules
-*/credentails.json
-/DialogflowBackend/credentails.json
+
 
 # profiling files
 chrome-profiler-events*.json

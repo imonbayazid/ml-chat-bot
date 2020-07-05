@@ -7,7 +7,7 @@ const axios = require('axios');
 const express = require('express')
 const bodyParser = require('body-parser');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 /**
  * Send a query to the dialogflow agent, and return the query result.
  * @param {string} projectId The project to be used
