@@ -5,7 +5,7 @@ Checkout the tutorial artice series:
 https://oloshprogrammer.wordpress.com/2020/07/03/machine-learning-chatbot-with-dialogflow-jupyter-notebookflaskangularnodejs-part1/
 
 
-Steps:
+### Steps:
   1. Prepare the training model in the dialogflow.
   https://oloshprogrammer.wordpress.com/2020/07/03/machine-learning-chatbot-with-dialogflow-jupyter-notebookflaskangularnodejs-part1/
 
@@ -19,5 +19,5 @@ Steps:
   https://oloshprogrammer.wordpress.com/2020/07/04/machine-learning-chatbot-with-dialogflow-jupyter-notebookflaskangularnodejs-part4/
 
 
-## Online Demo
+### Online Demo
 https://titanic-chat-bot-frontend.herokuapp.com/
